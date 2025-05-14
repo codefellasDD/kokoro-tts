@@ -14,5 +14,6 @@ services:
     name: kokoro-tts
     image:
       # Pulls the kokoro image tagged as latest from Docker Hub
-      url: docker.io/dustynv/kokoro-tts
+      url: docker.io/sebastianboehler/kokoro-tts:latest
+
 
