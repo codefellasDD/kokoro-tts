@@ -1,6 +1,4 @@
-# Use this Blueprint to deploy n8n on Render as a web
-# service that uses a Postgres database to store
-# workflow data.
+# Use this Blueprint to deploy kokoro on Render as a web
 #
 # This Blueprint uses free instance types (specified by
 # `plan`) for both the web service and the database. You
@@ -15,6 +13,6 @@ services:
     # You can give the service any name
     name: kokoro-tts
     image:
-      # Pulls the n8n image tagged as latest from Docker Hub
-      url: docker.io/kopi/kokoro
+      # Pulls the kokoro image tagged as latest from Docker Hub
+      url: docker.io/mapol/kokoro
 
