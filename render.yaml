@@ -16,5 +16,5 @@ services:
     name: kokoro-tts
     image:
       # Pulls the n8n image tagged as latest from Docker Hub
-      url: docker.io/kopi/kokoro:latest
+      url: docker.io/kopi/kokoro
 
